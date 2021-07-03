@@ -1,0 +1,29 @@
+{
+  "widget-label": "Pròpértîës Wìdgét",
+  "element-list": {
+    "title": "$élêçtèd Élêmëñts",
+    "results": "rèsùlts"
+  },
+  "context-menu": {
+    "add-favorite": {
+      "label": "Àdd tó Fâvõrìté",
+      "description": "Àdd thís prôpërtý tø Fàvórìté ¢åtègórý"
+    },
+    "remove-favorite": {
+      "label": "Rèmóvê frõm Fävørîtë",
+      "description": "Rèmóvê thïs pröpértý fróm Fâvõrîtë ¢átêgõrý"
+    },
+    "share-favorite": {
+      "label": "$hárê thïs Fävørîtë",
+      "description": "$hárê thïs pröpértý ïñ Fãvörïtè çâtëgörÿ"
+    },
+    "unshare-favorite": {
+      "label": "Ùñshârë thìs Fåvòrïtè",
+      "description": "Ùñshârë thìs prøpêrtÿ ìñ Fävørìté ¢ãtègørý"
+    },
+    "copy-text": {
+      "label": "Çópý Të×t",
+      "description": "Çópý të×t øf thîs própèrtÿ"
+    }
+  }
+}

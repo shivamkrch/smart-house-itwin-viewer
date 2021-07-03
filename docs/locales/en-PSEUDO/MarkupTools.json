@@ -1,0 +1,98 @@
+{
+  "actions": {
+    "modify": "Mòdífý mãrküp",
+    "group": "Gròùp mârkûps",
+    "ungroup": "Ùñgrôûp märkµp",
+    "delete": "Ðélêtë märkµp",
+    "copy": "Çópý mãrküp",
+    "toFront": "ßríñg tõ fröñt",
+    "toBack": "$éñd Tõ bäçk"
+  },
+  "tools": {
+    "Markup": {
+      "Select": {
+        "keyin": "Màrkùp $ëlèçt",
+        "description": "Màrkùp sêlë¢tíòñ tôõl",
+        "Prompts": {
+          "IdentifyMarkup": "Ìdéñtïfý mårkùp ëlèméñt",
+          "AcceptMarkup": "Àç¢ëpt märkµp êlëmèñt"
+        }
+      },
+      "Line": {
+        "keyin": "Màrkùp £ïñé",
+        "description": "Ðráw lîñè",
+        "flyover": "£íñë"
+      },
+      "Rectangle": {
+        "keyin": "Màrkùp Rêçtäñglê",
+        "description": "Ðráw rêçtäñglê",
+        "flyover": "Rèçtâñglè"
+      },
+      "Polygon": {
+        "keyin": "Màrkùp Pôlÿgöñ",
+        "description": "Ðráw pôlÿgöñ",
+        "flyover": "Pòlÿgôñ",
+        "Prompts": {
+          "FirstPoint": "Ìdéñtïfý çêñtèr",
+          "NextPoint": "Ðéfîñè pøîñt ôñ êdgë"
+        }
+      },
+      "Circle": {
+        "keyin": "Màrkùp Çïr¢lé",
+        "description": "Ðráw ¢ïr¢lé",
+        "flyover": "Çír¢lë",
+        "Prompts": {
+          "FirstPoint": "Ìdéñtïfý çêñtèr",
+          "NextPoint": "Ðéfîñè rådîús"
+        }
+      },
+      "Ellipse": {
+        "keyin": "Màrkùp Êllïpsè",
+        "description": "Ðráw êllïpsè",
+        "flyover": "Èllípsê"
+      },
+      "Arrow": {
+        "keyin": "Màrkùp ,rrõw",
+        "description": "Ðráw ârrõw",
+        "flyover": "Àrrów"
+      },
+      "Distance": {
+        "keyin": "Màrkùp Ðïstäñ¢ë",
+        "description": "Màrkùp dîstãñçê bëtwèéñ pøìñts"
+      },
+      "Cloud": {
+        "keyin": "Màrkùp Çlõüd",
+        "description": "Ðráw ¢lõüd",
+        "flyover": "Çlóúd"
+      },
+      "Sketch": {
+        "keyin": "Màrkùp $kët¢h",
+        "description": "Ðráw frêëhäñd skêtçh",
+        "flyover": "$két¢h"
+      },
+      "Symbol": {
+        "keyin": "Màrkùp $ÿmböl",
+        "description": "Plàçê sÿmböl",
+        "Prompts": {
+          "FirstPoint": "Ðéfîñè çêñtèr õr dräg tø dèfíñë ¢ørñërs"
+        }
+      },
+      "Text": {
+        "Place": {
+          "keyin": "Plàçê Mãrküp Té×t",
+          "description": "Àdd té×t bõ×",
+          "Prompts": {
+            "FirstPoint": "Ìdéñtïfý té×t ló¢ãtîøñ"
+          }
+        },
+        "Edit": {
+          "keyin": "Èdít Mârkûp Tè×t",
+          "description": "Èdít tê×t",
+          "Prompts": {
+            "FirstPoint": "Èñtêr të×t"
+          }
+        }
+      }
+    }
+  }
+}

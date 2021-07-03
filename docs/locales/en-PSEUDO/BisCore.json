@@ -1,0 +1,18 @@
+{
+  "Categories": {
+    "SourceFileInformation": "$óúrçè Fílê Ïñfõrmätïòñ",
+    "SourceInformation": "$óúrçè Íñfórmâtíöñ",
+    "SourceInformationModelSource": "Mòdél $õürçê",
+    "SourceInformationSecondarySources": "$é¢õñdårý §ôür¢ës"
+  },
+  "Properties": {
+    "SourceElementId": "$óúrçè Élêmëñt ÍÐ",
+    "SourceFileName": "$óúrçè Fílê Ñâmé",
+    "SourceFilePath": "$óúrçè Fílê Páth",
+    "SourceInformation": {
+      "ElementId": "Èlémêñt ÌÐ",
+      "Name": "Ñámê",
+      "Path": "Pàth"
+    }
+  }
+}
