@@ -5,6 +5,15 @@ import React, { useEffect, useState } from "react";
 
 import AuthorizationClient from "./AuthorizationClient";
 import { Header } from "./Header";
+import {
+  IModelApp,
+  IModelConnection,
+  ScreenViewport,
+} from "@bentley/imodeljs-frontend";
+import Visualization from "./Visualization";
+import { DisplayStyleSettingsProps } from "@bentley/imodeljs-common";
+import SmartDeviceDecorator from "./components/decorators/SmartDeviceDecorator";
+import { SmartDeviceUIItemsProvider } from "./providers/SmartDeviceUIItemsProvider";
 
 const App: React.FC = () => {
   const [isAuthorized, setIsAuthorized] = useState(
@@ -61,6 +70,21 @@ const App: React.FC = () => {
     setIsAuthorized(false);
   };
 
+  const onIModelConnected = (_imodel: IModelConnection) => {
+    console.log("IModel Loaded");
+    document.title = `${_imodel.name} | iTwin Viewer React Sample`;
+
+    IModelApp.viewManager.onViewOpen.addOnce(async (vp: ScreenViewport) => {
+      const viewStyle: DisplayStyleSettingsProps = {
+        viewflags: { visEdges: false, shadows: true },
+      };
+      vp.overrideDisplayStyle(viewStyle);
+
+      Visualization.hideHouseExterior(vp);
+      IModelApp.viewManager.addDecorator(new SmartDeviceDecorator());
+    });
+  };
+
   return (
     <div className="viewer-container">
       <Header
@@ -76,6 +100,8 @@ const App: React.FC = () => {
             contextId={process.env.IMJS_CONTEXT_ID ?? ""}
             iModelId={process.env.IMJS_IMODEL_ID ?? ""}
             authConfig={{ oidcClient: AuthorizationClient.oidcClient }}
+            onIModelConnected={onIModelConnected}
+            uiProviders={[new SmartDeviceUIItemsProvider()]}
           />
         )
       )}
